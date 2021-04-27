@@ -6,9 +6,9 @@
 PluginInfo = {
   Name = "Base Plugin",
   Version = "0.0",
-  BuildVersion = "0.0.0.1",
-  Id = "ec6076c1-4d4e-4f40-bc5d-03e5f7126edf",
-  Author = "QSC",
+  BuildVersion = "0.0.0.0",
+  Id = "<guid>",
+  Author = "Your_Company",
   Description = "A very basic plugin"  
 }
 
