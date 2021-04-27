@@ -1,0 +1,3 @@
+[submodule "plugincompile"]
+	path = plugincompile
+	url = ssh://git@bitbucket.org:caitlynsullivan/basicpluginframework/plugincompile.git

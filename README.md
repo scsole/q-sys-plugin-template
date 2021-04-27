@@ -1,29 +1,34 @@
-# README #
+# BasePlugin
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This is a template plugin that you can download with some pre-written Lua code to get you started.
 
-### What is this repository for? ###
+Please note when cloning, the --recursive call should be used to ensure proper cloning of the PluginCompile submodule
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## PluginCompile
 
-### How do I get set up? ###
+This is a submodule built for VS Code. Please note it is not intended to be used for any other source code editors.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+The submodule will take the individual source Lua files in your local repo, compile them into a singular qplug file, and auto increment the desired octet of the BuildVersion.
+For first time builds, it will auto-generate an UUID for you plugin as well.
 
-### Contribution guidelines ###
+Make sure to map a keyboard shortcut by navigating to File>Preferences>Keyboard Shortcuts. Type in "Tasks" and assign the desired shortcut to the Tasks: Run Build Task command
 
-* Writing tests
-* Code review
-* Other guidelines
+### Build Arguments
 
-### Who do I talk to? ###
+<ver_maj> : increments the first octet of BuildVersion to denote a major version change
 
-* Repo owner or admin
-* Other community or team contact
+<ver_min> : increments the second octet of BuildVersion to denote a minor version change
+
+<ver_fix> : increments the third octet of BuildVersion to denote a bugfix
+
+<ver_dev> : increments the fourth octet of BuildVersion to denote a new development version
+
+< CANCEL > : cancels the build process
+  
+Please note that the public version (PluginVersion) only displays first and second octet. The second octets are intended for developer use and version tracking.
+
+## Support
+
+If you have any questions or concerns with this template, please contact qsyscontrolfeedback@qsc.com
+
+Please note that QSC does not support plugins authored by third party developers or companies.
