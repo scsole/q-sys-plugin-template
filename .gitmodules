@@ -1,0 +1,3 @@
+[submodule "plugincompile"]
+	path = plugincompile
+	url = https://github.com/scsole/q-sys-plugincompile.git
