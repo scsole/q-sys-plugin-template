@@ -2,6 +2,10 @@
 
 A slightly revised version of QSC's [Basic Framework Plugin](https://bitbucket.org/qsc-communities/basicpluginframework) with tweaks to the build process. Designed to be used as a starter template.
 
+> Note: This branch encrypts the plugin on each build. Use this version if you
+cannot publicly release the source code, e.g., due to a closed source third
+party API.
+
 ## Usage
 
 Use this repository as a template when creating a new project. Be sure to clone
