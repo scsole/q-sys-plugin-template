@@ -1,3 +1,6 @@
 [submodule "plugincompile"]
 	path = plugincompile
 	url = https://github.com/scsole/q-sys-plugincompile.git
+[submodule "pluginencryptiontool"]
+	path = pluginencryptiontool
+	url = https://github.com/qsys-plugins/PluginEncryptionTool.git

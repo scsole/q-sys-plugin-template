@@ -20,6 +20,28 @@
         }
       },
       "problemMatcher": [],
+      "dependsOn": ["Encrypt Plugin"]
+    },
+    {
+      "label": "Encrypt Plugin",
+      "type": "shell",
+      "command": "echo Encrypt Plugin",
+      "windows": {
+        "command": "${workspaceFolder}\\pluginencryptiontool\\release\\plugin_tool_release.exe",
+        "args": [
+          "encrypt",
+          "${workspaceFolder}\\src\\${workspaceFolderBasename}.qplug",
+          "${workspaceFolder}\\src\\${workspaceFolderBasename}.qplugx"
+        ],
+        "options": {
+          "cwd": "${env:WINDIR}",
+          "shell": {
+            "executable": "cmd",
+            "args": ["/c"]
+          }
+        }
+      },
+      "problemMatcher": [],
       "dependsOn": ["Compile Plugin"]
     },
     {
