@@ -1,4 +1,4 @@
-table.insert(pins,{
+table.insert(pins, {
   Name = "Audio Output",
   Direction = "output",
 })

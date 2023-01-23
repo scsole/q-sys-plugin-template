@@ -1,7 +1,7 @@
-table.insert(components,{
+table.insert(components, {
   Name = "main_mixer",
   Type = "mixer",
-  Properties =   
+  Properties =
   {
     ["n_inputs"] = 8,
     ["n_outputs"] = 1,
