@@ -28,7 +28,7 @@ function GetControlLayout(props)
       Color = { 0, 0, 0 }
     }
 
-  elseif currentPage == "Setup" then
+  -- elseif currentPage == "Setup" then
     -- TBD
   end
 

@@ -9,12 +9,12 @@
 --[[ #include "globals.lua" ]]
 
 -- Define the color of the plugin object in the design
-function GetColor(props)
+function GetColor(_props)
   return Colors.Plugin
 end
 
 -- The name that will initially display when dragged into a design
-function GetPrettyName(props)
+function GetPrettyName(_props)
   return PluginInfo.Name .. " v" .. PluginInfo.Version
 end
 

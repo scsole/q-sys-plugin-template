@@ -1,4 +1,4 @@
-function GetWiring(props)
+function GetWiring(_props)
     local wiring = {}
 
     table.insert(wiring, { "Audio Output", "main_mixer Output 1" })
