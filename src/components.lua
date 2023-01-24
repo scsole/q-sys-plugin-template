@@ -1,4 +1,4 @@
-function GetComponents(props)
+function GetComponents(_props)
   local components = {}
 
   table.insert(components, {

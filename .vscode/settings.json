@@ -5,14 +5,18 @@
     "*.qplug": "lua"
   },
   "Lua.diagnostics.globals": [
-    "Controls",
     "Component",
-    "Properties",
-    "Timer",
+    "Controls",
+    "Crypto",
     "HttpClient",
+    "Network",
+    "Properties",
+    "SerialPorts",
+    "SerialServerPorts",
     "Ssh",
     "TcpSocket",
+    "TcpSocketServer",
+    "Timer",
     "UdpSocket",
-    "Network"
   ]
 }

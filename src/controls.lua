@@ -1,4 +1,4 @@
-function GetControls(props)
+function GetControls(_props)
   local ctrls = {}
 
   table.insert(ctrls, {

@@ -1,6 +1,8 @@
-# Base Plugin
+# Q-Sys Plugin Template
 
 A slightly revised version of QSC's [Basic Framework Plugin](https://bitbucket.org/qsc-communities/basicpluginframework) with tweaks to the build process. Designed to be used as a starter template.
+
+[![Luacheck](https://github.com/scsole/q-sys-plugin-template/actions/workflows/luacheck.yml/badge.svg)](https://github.com/scsole/q-sys-plugin-template/actions/workflows/luacheck.yml)
 
 > Note: This branch encrypts the plugin on each build. Use this version if you
 cannot publicly release the source code, e.g., due to a closed source third
@@ -11,9 +13,11 @@ party API.
 Use this repository as a template when creating a new project. Be sure to clone
 this repository using the `--recursive` flag to initialize submodules.
 
-## Compiling
-
 This template is designed for [Visual Studio Code](https://code.visualstudio.com/).
+The [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) VS Code
+extension is also recommended.
+
+## Compiling
 
 The build task will take the individual source Lua files in your local repo,
 compile them into a singular qplug file, and auto increment the desired octet
@@ -49,4 +53,4 @@ If you encounter errors compiling, please refer to the Q-Sys [Plugin Compiler](h
 If you use this template and find yourself always making a particular change,
 pull requests and issues on GitHub are welcomed.
 
-All code must be formatted using the [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) extension.
+All workflows must pass before any pull requests can be accepted.

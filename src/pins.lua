@@ -1,4 +1,4 @@
-function GetPins(props)
+function GetPins(_props)
   local pins = {}
 
   table.insert(pins, {

@@ -1,4 +1,4 @@
-function GetPages(props)
+function GetPages(_props)
   local pages = {}
 
   for ix, _ in ipairs(PageNames) do
