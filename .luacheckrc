@@ -1,0 +1,32 @@
+codes = true
+std = "max"
+globals = {
+  "Colors",
+  "Component",
+  "Controls",
+  "Crypto",
+  "GetColor",
+  "GetComponents",
+  "GetControlLayout",
+  "GetControls",
+  "GetModel",
+  "GetPages",
+  "GetPins",
+  "GetPrettyName",
+  "GetProperties",
+  "GetWiring",
+  "HttpClient",
+  "Network",
+  "PageNames",
+  "PluginInfo",
+  "Properties",
+  "RectifyProperties",
+  "SerialPorts",
+  "SerialServerPorts",
+  "Ssh",
+  "TcpSocket",
+  "TcpSocketServer",
+  "Timer",
+  "UdpSocket",
+}
+files["src/plugin.lua"].ignore = {"542"}
