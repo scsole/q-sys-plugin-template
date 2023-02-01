@@ -234,6 +234,7 @@ stds.qsysplug = {
     GetControls = {},
     GetControlLayout = {},
     GetComponents = {},
+    GetModel = {},
     GetPins = {},
     GetWiring = {},
     PluginInfo = {
@@ -274,7 +275,9 @@ stds.custom = {
     Constants = {
       other_fields = true,
     },
-    PageNames = {}
+    PageNames = {
+      other_fields = true,
+    }
   }
 }
 std = "min+qsys+qsysplug+custom"
