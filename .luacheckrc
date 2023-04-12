@@ -280,7 +280,7 @@ stds.custom = {
     }
   }
 }
-std = "min+qsys+qsysplug+custom"
+std = "max+qsys+qsysplug+custom"
 files["src/plugin.lua"].ignore = { "542" } -- An empty if branch
 files["src/layout.lua"].ignore = { "542" } -- An empty if branch
 -- Exclude a file, e.g. use to ignore a file containing the problematic Q-SYS compiler #encode directive
